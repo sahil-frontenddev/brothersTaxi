@@ -41,7 +41,7 @@ const ContactArch = () => {
                   message: "",
                 }}
                 onSubmit={async (values) => {
-                  e.preventDefault();
+                  // e.preventDefault();
                   const formValues = new FormData();
 
                   formValues.append('name', values.name);
