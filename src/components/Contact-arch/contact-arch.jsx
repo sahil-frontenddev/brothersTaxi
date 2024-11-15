@@ -48,7 +48,7 @@ const ContactArch = () => {
                   formValues.append('email', values.email);
                   formValues.append('message', values.message);
                   
-                  const res = await axios.post('/contact.php', formValues)
+                  const res = await axios.post('/', formValues)
                     .catch(err => alert(err.message));
 
                   if (!res) return;
