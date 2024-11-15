@@ -41,31 +41,44 @@ const ContactArch = () => {
                   message: "",
                 }}
                 onSubmit={async (values) => {
-                  await sendMessage(500);
+                  e.preventDefault();
                   const formValues = new FormData();
 
                   formValues.append('name', values.name);
                   formValues.append('email', values.email);
                   formValues.append('message', values.message);
-                  
-                  const res = await axios.post('/', formValues)
-                    .catch(err => alert(err.message));
+    
 
-                  if (!res) return;
+    const response = await fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(formValues),
+    });
+
+    if (response.ok) {
+      messageRef.current.innerText =
+      "Your Message has been successfully sent. I will contact you soon.";
+    // Reset the values
+    values.name = "";
+    values.email = "";
+    values.message = "";
+    // clear message
+    setTimeout(() => {
+      messageRef.current.innerText = "";
+    }, 2000);
+      
+    } else {
+      alert(JSON.stringify(values, null, 2));
+    }
                   
-                  alert(JSON.stringify(values, null, 2));
+                  
+                  
+                
+                  
+                 
                   // show message
 
-                  messageRef.current.innerText =
-                    "Your Message has been successfully sent. I will contact you soon.";
-                  // Reset the values
-                  values.name = "";
-                  values.email = "";
-                  values.message = "";
-                  // clear message
-                  setTimeout(() => {
-                    messageRef.current.innerText = "";
-                  }, 2000);
+                 
                 }}
               >
                 {({ errors, touched }) => (
