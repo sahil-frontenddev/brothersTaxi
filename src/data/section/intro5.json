@@ -5,22 +5,31 @@
       "first": "Taxi Service",
       "second": "for long routes"
     },
-    "content": "we provide taxi for long routes Pathankot to Kashmir, Pathankot to Shri mata vaishno devi and all over the noth india.",
+    "content": "we provide taxi for long routes Pathankot to Kashmir, Pathankot to Shri mata vaishno devi and all over the north india.",
     "image": "/img/arch/slid/4.webp"
   },
   {
     "id": 2,
     "title": "Pathankot to Shri mata Vaishno devi",
     "content": "We developed strong relationships with contractors and specialist companies offering discounted prices.",
-    "image": "/img/arch/slid/2.jpg"
+    "image": "/img/arch/slid/11.jpg"
   },
   {
     "id": 3,
     "title": {
-      "first": "Innovative",
-      "second": "Architectures"
+      "first": "Pathankot to Dharamshala",
+      "second": "A beautifull place to spend your vaccations."
     },
-    "content": "We developed strong relationships with contractors and specialist companies offering discounted prices.",
-    "image": "/img/arch/slid/1.webp"
+    "content": "Beautiful place to stay, beautifull velly dharamshala stadium and many more.",
+    "image": "/img/arch/slid/12.jpg"
+  },
+  {
+    "id": 3,
+    "title": {
+      "first": "Pathankot to Amritsar",
+      "second": "Golden Temple and wagha border"
+    },
+    "content": "Pathankot to Amritsar Golden temple, wagha border, jaliyawala bagh and many more places. .",
+    "image": "/img/arch/slid/10.jpg"
   }
 ]

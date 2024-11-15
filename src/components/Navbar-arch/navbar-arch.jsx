@@ -38,73 +38,23 @@ const NavbarArch = ({ navbarRef, theme }) => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item dropdown" onClick={handleDropdown}>
-              <span
-                className="nav-link dropdown-toggle"
-                data-toggle="dropdown"
-                data-scroll-nav="0"
+              <Link
+                className="nav-link"
+                to="/"
+                
               >
                 Home
-              </span>
-              <div className="dropdown-menu">
-                <a
-                  className="dropdown-item"
-                  href={`/homepage/home1-dark`}
-                >
-                  Main Home
-                </a>
-                <a
-                  className="dropdown-item"
-                  href={`/homepage/home2-dark`}
-                >
-                  Creative Agency
-                </a>
-                <a
-                  className="dropdown-item"
-                  href={`/homepage/home5-dark`}
-                >
-                  Digital Agency
-                </a>
-                <a
-                  className="dropdown-item"
-                  href={`/homepage/home4-dark`}
-                >
-                  Business One Page
-                </a>
-                <a
-                  className="dropdown-item"
-                  href={`/homepage/home3-dark`}
-                >
-                  Corporate Business
-                </a>
-                <a
-                  className="dropdown-item"
-                  href={`/homepage/home6-dark`}
-                >
-                  Modern Agency
-                </a>
-                <a
-                  className="dropdown-item"
-                  href={`/homepage/home7-dark`}
-                >
-                  Freelancer
-                </a>
-                <a
-                  className="dropdown-item"
-                  href={`/homepage/home8-dark`}
-                >
-                  Architecture
-                </a>
-              </div>
+              </Link>
             </li>
 
             <li className="nav-item">
               <Link
                 className="nav-link"
-                to="about"
-                spy={true}
-                smooth={true}
-                offset={50}
-                duration={500}
+                to="/about"
+                // spy={true}
+                // smooth={true}
+                // offset={50}
+                // duration={500}
               >
                 About
               </Link>

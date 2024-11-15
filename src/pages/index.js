@@ -3,6 +3,7 @@ import Layout from "../components/layout";
 import NavbarArch from "../components/Navbar-arch/navbar-arch";
 import Intro5 from "../components/Intro5/intro5";
 import FooterArch from "../components/Footer-arch/footer-arch.jsx";
+import ContactArch from "../components/Contact-arch/contact-arch";
 
 
 const Homepage = () => {
@@ -36,8 +37,8 @@ const Homepage = () => {
       <CaseStudy />
       <Team3 />
       <TestimonialsArch />
-      <LatestNews />
-      <ContactArch />*/}
+      <LatestNews />*/}
+      <ContactArch />
      
       {/* Hello Landing Page  */}
   
@@ -50,7 +51,7 @@ const Homepage = () => {
 export const Head = () => {
   return (
     <>
-      <title>Home | pathankot to himachal and kasmir Taxi.</title>
+      <title>Home | Brothers Taxi Service, pathankot to himachal and kasmir Taxi.</title>
       <link rel="stylesheet" href="/css/arch-skin-dark.css" />
       <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Khand:wght@300;400;500;600;700&display=swap" />
       <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" />

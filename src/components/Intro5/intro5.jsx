@@ -80,7 +80,7 @@ const Intro5 = () => {
                     <div className="row">
                       <div className="col-lg-6">
                         <div className="caption mt-30">
-                          <h5>0{index + 1} .</h5>
+                          {/* <h5>0{index + 1} .</h5> */}
                           <h1>
                             {typeof slide.title === "object" ? (
                               <>
