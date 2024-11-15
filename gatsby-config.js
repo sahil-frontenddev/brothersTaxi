@@ -1,14 +1,11 @@
-/**
- * Configure your Gatsby site with this file.
- *
- * See: https://www.gatsbyjs.com/docs/reference/config-files/gatsby-config/
- */
-
-/**
- * @type {import('gatsby').GatsbyConfig}
- */
 module.exports = {
+  siteMetadata: {
+    title: 'Brothers taxi service.',
+    description: 'pathankot to Himachal and Kashmir Taxi Service.',
+    author: 'ThemesCamp'
+  },
   plugins: [
-    'gatsby-plugin-postcss'
+    'gatsby-plugin-resolve-src'
   ],
+  trailingSlash: "always"
 }
