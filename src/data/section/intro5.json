@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": {
+      "first": "Taxi Service",
+      "second": "for long routes"
+    },
+    "content": "we provide taxi for long routes Pathankot to Kashmir, Pathankot to Shri mata vaishno devi and all over the noth india.",
+    "image": "/img/arch/slid/4.webp"
+  },
+  {
+    "id": 2,
+    "title": "Pathankot to Shri mata Vaishno devi",
+    "content": "We developed strong relationships with contractors and specialist companies offering discounted prices.",
+    "image": "/img/arch/slid/2.jpg"
+  },
+  {
+    "id": 3,
+    "title": {
+      "first": "Innovative",
+      "second": "Architectures"
+    },
+    "content": "We developed strong relationships with contractors and specialist companies offering discounted prices.",
+    "image": "/img/arch/slid/1.webp"
+  }
+]
