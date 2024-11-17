@@ -95,7 +95,7 @@ const Intro5 = () => {
                       </div>
                       <div className="col-lg-4 valign">
                         <div className="explore">
-                          <Link to="/"> 
+                          <Link to="/Showcase/showcase-list"> 
                             Explore more
                             <i className="ion-chevron-right"></i>
                           </Link>
