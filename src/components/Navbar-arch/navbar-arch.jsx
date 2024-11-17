@@ -3,7 +3,8 @@ import { Link } from "react-scroll";
 import appData from "../../data/app.json";
 import { handleDropdown, handleMobileDropdown } from "../../common/navbar";
 
-const NavbarArch = ({ navbarRef, theme }) => {
+
+const NavbarArch = ({ navbarRef, theme, notMain = false }) => {
   
   return (
     <nav className="navbar navbar-expand-lg" ref={navbarRef}>
@@ -36,25 +37,35 @@ const NavbarArch = ({ navbarRef, theme }) => {
         </button>
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav ml-auto">
-            <li className="nav-item dropdown" onClick={handleDropdown}>
-              <Link
+          {notMain?
+          (<ul className="navbar-nav ml-auto">
+            <li className="nav-item dropdown">
+              <a
                 className="nav-link"
-                to="/"
+                href="/"
                 
               >
                 Home
-              </Link>
+              </a>
+            </li>
+
+          </ul>):(<ul className="navbar-nav ml-auto">
+            <li className="nav-item dropdown">
+              <a
+                className="nav-link"
+                href="#" >
+                Home
+              </a>
             </li>
 
             <li className="nav-item">
               <Link
                 className="nav-link"
-                to="/about"
-                // spy={true}
-                // smooth={true}
-                // offset={50}
-                // duration={500}
+                to="about"
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={500}
               >
                 About
               </Link>
@@ -119,7 +130,10 @@ const NavbarArch = ({ navbarRef, theme }) => {
                 Contact
               </Link>
             </li>
-          </ul>
+          </ul>)
+          }
+          
+
         </div>
       </div>
     </nav>

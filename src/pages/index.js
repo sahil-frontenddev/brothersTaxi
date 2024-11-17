@@ -4,6 +4,7 @@ import NavbarArch from "../components/Navbar-arch/navbar-arch";
 import Intro5 from "../components/Intro5/intro5";
 import FooterArch from "../components/Footer-arch/footer-arch.jsx";
 import ContactArch from "../components/Contact-arch/contact-arch";
+import AboutUs6 from "components/About-us6/about-us6";
 
 
 const Homepage = () => {
@@ -31,8 +32,8 @@ const Homepage = () => {
     <Layout useSkin>
       <NavbarArch navbarRef={navbarRef} />
       <Intro5 />
-      {/* <AboutUs6 />
-      <Services6 />
+      <AboutUs6 />
+      {/* <Services6 />
       <WorksStyle5 />
       <CaseStudy />
       <Team3 />

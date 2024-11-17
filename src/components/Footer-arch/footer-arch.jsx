@@ -95,9 +95,9 @@ const FooterArch = () => {
               </div>
               <div className="copy-right">
                 <p>
-                  © 2022, Vie Template. Made with passion by
+                  © 2024, Brothers Taxi Services made by 
                   <a href="#0" className="main-color">
-                    ThemesCamp
+                    Sahil lalotra
                   </a>
                   .
                 </p>
