@@ -71,40 +71,7 @@ const NavbarArch = ({ navbarRef, theme, notMain = false }) => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link
-                className="nav-link"
-                to="po-arch"
-                spy={true}
-                smooth={true}
-                offset={50}
-                duration={500}
-              >
-                Works
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                className="nav-link"
-                to="team-arch"
-                spy={true}
-                smooth={true}
-                offset={50}
-                duration={500}
-              >
-                Team
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                className="nav-link"
-                to="testimonials-arch"
-                spy={true}
-                smooth={true}
-                offset={50}
-                duration={500}
-              >
-                Testimonials
-              </Link>
+              
             </li>
             <li className="nav-item">
               <Link
