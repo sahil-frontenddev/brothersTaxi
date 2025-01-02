@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-const AboutUs6 = () => {
+const AboutUs = () => {
     return (
       <section id="about" className="about-ar section-padding">
         <div className="container">
@@ -50,4 +50,4 @@ const AboutUs6 = () => {
     );
 }
 
-export default AboutUs6
+export default AboutUs
