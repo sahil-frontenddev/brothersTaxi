@@ -27,7 +27,8 @@ module.exports = {
         "path": "src/_vehicles/vehicle/"
       },
       __key: "vehicleList"
-    }
+    },
+    'gatsby-transformer-remark'
   ],
   trailingSlash: "always"
 }
