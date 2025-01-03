@@ -11,7 +11,7 @@ collections:
     label: "Blog" # Used in the UI
     folder: "./src/_posts/blog" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
       - { label: "Title", name: "title", widget: "string" }
@@ -19,18 +19,18 @@ collections:
       - { label: "Featured Image", name: "thumbnail", widget: "image" }
       - { label: "Rating (scale of 1-5)", name: "rating", widget: "number" }
       - { label: "Body", name: "body", widget: "markdown" }
-      - { name: "slug",  required: true, widget: "hidden" ,default: "{{year}}-{{month}}-{{day}}-{{slug}}"}
+      - { name: "slug", required: true, widget: 'string'}
 
 
   - name: "vehicles" # Used in routes, e.g., /admin/collections/blog
     label: "Vehicles" # Used in the UI
     folder: "./src/_vehicles/vehicle" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Category", name: "category", widget: "select", options: ['SUV','SIDAN','PASSANGER'] }
       - { label: "Featured Image", name: "thumbnail", widget: "image" }
       - { label: "Body", name: "body", widget: "markdown" }
-      - { name: slug, required: true, widget: 'hidden' ,default: "{{slug}}"}
+      - { name: "slug", required: true, widget: 'string'}
