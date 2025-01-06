@@ -9,14 +9,14 @@ module.exports = {
       resolve: 'gatsby-source-filesystem',
       options: {
         "name": "images",
-        "path": "/images/"
+        "path": "./src/images/"
       },
       __key: "images"
     }, {
       resolve: 'gatsby-source-filesystem',
       options: {
         "name": "pages",
-        "path": "_posts/blog/"
+        "path": "./src/_posts/blog/"
       },
       __key: "pages"
     },
@@ -24,7 +24,7 @@ module.exports = {
       resolve: 'gatsby-source-filesystem',
       options: {
         "name": "vehicleList",
-        "path": "_vehicles/vehicle/"
+        "path": "./src/_vehicles/vehicle/"
       },
       __key: "vehicleList"
     },
