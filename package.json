@@ -30,6 +30,7 @@
     "react-tsparticles": "^2.3.3",
     "react-visibility-sensor": "^5.1.1",
     "slick-carousel": "^1.8.1",
+    "slugify": "^1.6.6",
     "swiper": "^8.4.4",
     "tsparticles": "^2.3.4",
     "typewriter-effect": "^2.19.0"

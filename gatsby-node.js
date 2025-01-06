@@ -1,3 +1,5 @@
+const slugify = require('slugify');
+
 exports.onCreateNode = ({ node, actions }) => {
     const { createNodeField } = actions;
   
