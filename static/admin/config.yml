@@ -18,7 +18,6 @@ collections:
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Thumbnail", name: "thumbnail", widget: "image" }
       - { label: "Body", name: "body", widget: "markdown" }
-      - { label: "Slug", name: "slug", widget: "string", required: true, default: {{fields.title | slugify}} }
 
 
   - name: "vehicles"
@@ -31,6 +30,5 @@ collections:
       - { label: "Type", name: "type", widget: "string" }
       - { label: "Image", name: "image", widget: "image" }
       - { label: "Description", name: "description", widget: "markdown" }
-      - { label: "Slug", name: "slug", widget: "string", required: true, default: {{fields.title | slugify}} }
 
       
