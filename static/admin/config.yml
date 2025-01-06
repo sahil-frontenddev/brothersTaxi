@@ -1,7 +1,7 @@
 # Decap CMS Config
 backend:
-  name: test-repo
-  local_backend: true
+  name: "git-gateway"
+  branch: "main" 
 
 
 media_folder: "static/images/uploads"
@@ -15,10 +15,11 @@ collections:
     slug: "{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Slug", name: "slug", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Thumbnail", name: "thumbnail", widget: "image" }
       - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Slug", name: "slug", widget: "hidden", required: true, default: "{{slug}}" }
+
 
   - name: "vehicles"
     label: "Vehicles"
@@ -27,8 +28,9 @@ collections:
     slug: "{{slug}}"
     fields:
       - { label: "Vehicle Name", name: "name", widget: "string" }
-      - { label: "Slug", name: "slug", widget: "string" }
       - { label: "Type", name: "type", widget: "string" }
       - { label: "Image", name: "image", widget: "image" }
       - { label: "Description", name: "description", widget: "markdown" }
+      - { label: "Slug", name: "slug", widget: "hidden", required: true, default: "{{slug}}" }
+
       
