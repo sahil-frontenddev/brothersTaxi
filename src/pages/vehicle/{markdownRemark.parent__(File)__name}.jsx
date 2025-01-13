@@ -80,7 +80,7 @@ export const Head = ({data}) => {
 
 export const pageQuery = graphql`
   query MyQuery($id: String) {
-  markdownRemark(id: {eq: $id},fileAbsolutePath: {regex: "/(_vehicles)/"}) {
+  markdownRemark(id: {eq: $id}) {
     frontmatter {
       date
       slug
