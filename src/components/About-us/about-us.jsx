@@ -35,7 +35,7 @@ const AboutUs = () => {
             <div className="col-lg-6 valign">
               <div className="content">
                 <h6 className="sub-title main-color ls10 text-u">About Us</h6>
-                <h3>Brothers Taxi.</h3>
+                <h3>DK Tour & Travel.</h3>
                 <p>
                 your trusted taxi service provider in North India! We specialize in offering safe, reliable, and comfortable transportation across the stunning regions of Kashmir, Punjab, and Himachal Pradesh. Whether you're traveling for business, leisure, or seeking to explore the breathtaking landscapes, we are here to make your journey as smooth and hassle-free as possible.
                 </p>

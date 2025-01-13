@@ -1,7 +1,11 @@
+
 # Decap CMS Config
 backend:
   name: "git-gateway"
   branch: "main" 
+  site_url: https://brotherstaxi.netlify.app
+  local_backend: true 
+  debug: true
 
 
 media_folder: "static/images/uploads"
@@ -14,10 +18,10 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Date", name: "date", widget: "datetime" }
-      - { label: "Thumbnail", name: "thumbnail", widget: "image" }
-      - { label: "Body", name: "body", widget: "markdown" }
+      [{ label: "Title", name: "title", widget: "string" },
+      { label: "Date", name: "date", widget: "datetime" },
+      { label: "Thumbnail", name: "thumbnail", widget: "image" },
+      { label: "Body", name: "body", widget: "markdown" }]
 
 
   - name: "vehicles"
@@ -26,9 +30,9 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
-      - { label: "Vehicle Name", name: "name", widget: "string" }
-      - { label: "Type", name: "type", widget: "string" }
-      - { label: "Image", name: "image", widget: "image" }
-      - { label: "Description", name: "description", widget: "markdown" }
+      [{ label: "Vehicle Name", name: "name", widget: "string" },
+      { label: "Type", name: "type", widget: "string" },
+      { label: "Image", name: "image", widget: "image" },
+      { label: "Description", name: "description", widget: "markdown" }]
 
       

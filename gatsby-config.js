@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Brothers taxi service.',
+    title: 'DK Tour & Travel service.',
     description: 'pathankot to Himachal and Kashmir Taxi Service.',
     author: 'ThemesCamp'
   },

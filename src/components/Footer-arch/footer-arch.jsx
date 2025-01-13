@@ -95,7 +95,7 @@ const FooterArch = () => {
               </div>
               <div className="copy-right">
                 <p>
-                  © 2024, Brothers Taxi Services made by 
+                  © 2024, DK Tour & Travel Services made by 
                   <a href="#0" className="main-color">
                     Sahil lalotra
                   </a>

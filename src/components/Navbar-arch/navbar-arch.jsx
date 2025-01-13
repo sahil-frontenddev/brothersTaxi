@@ -1,10 +1,11 @@
 import React from "react";
 import { Link } from "react-scroll";
+import {Link as GatsbyLink} from "gatsby";
 import appData from "../../data/app.json";
-import { handleDropdown, handleMobileDropdown } from "../../common/navbar";
+import { handleMobileDropdown } from "../../common/navbar";
 
 
-const NavbarArch = ({ navbarRef, theme, notMain = false }) => {
+const NavbarArch = ({ navbarRef, theme}) => {
   
   return (
     <nav className="navbar navbar-expand-lg" ref={navbarRef}>
@@ -37,25 +38,13 @@ const NavbarArch = ({ navbarRef, theme, notMain = false }) => {
         </button>
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          {notMain?
-          (<ul className="navbar-nav ml-auto">
+          <ul className="navbar-nav ml-auto">
             <li className="nav-item dropdown">
-              <a
+              <GatsbyLink
                 className="nav-link"
-                href="/"
-                
-              >
+                href="/" >
                 Home
-              </a>
-            </li>
-
-          </ul>):(<ul className="navbar-nav ml-auto">
-            <li className="nav-item dropdown">
-              <a
-                className="nav-link"
-                href="#" >
-                Home
-              </a>
+              </GatsbyLink>
             </li>
 
             <li className="nav-item">
@@ -74,16 +63,12 @@ const NavbarArch = ({ navbarRef, theme, notMain = false }) => {
               
             </li>
             <li className="nav-item">
-              <Link
+              <GatsbyLink
                 className="nav-link"
-                to="blog-arch"
-                spy={true}
-                smooth={true}
-                offset={50}
-                duration={500}
+                to={`/blog/`} 
               >
                 Blog
-              </Link>
+              </GatsbyLink>
             </li>
             <li className="nav-item">
               <Link
@@ -97,8 +82,7 @@ const NavbarArch = ({ navbarRef, theme, notMain = false }) => {
                 Contact
               </Link>
             </li>
-          </ul>)
-          }
+          </ul>
           
 
         </div>

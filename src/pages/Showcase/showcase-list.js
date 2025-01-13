@@ -17,7 +17,7 @@ const ShowcaseList = () => {
 export const Head = () => {
   return (
     <>
-      <title>Brothers taxi | Pathankot to katra, dharamshala, amritsar and dalhausie.</title>
+      <title>DK Tour & Travel | Pathankot to katra, dharamshala, amritsar and dalhausie.</title>
     </>
   )
 }

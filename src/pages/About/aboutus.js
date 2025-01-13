@@ -25,7 +25,7 @@ const Aboutus = () => {
 
   return (
     <Layout useSkin>
-      <NavbarArch navbarRef={navbarRef} notMain={true} />
+      <NavbarArch navbarRef={navbarRef} />
       <div className="pages-header circle-bg valign">
       <div className="container min-area">
         <div className="row">
@@ -34,7 +34,7 @@ const Aboutus = () => {
         <div className="content pt-0">
           <h4 className="wow color-font animated">About us.</h4>
           <p className="wow txt animated" data-splitting="true">
-          Welcome to Brothers Taxi Services, your trusted taxi service provider in North India! We specialize in offering safe, reliable, and comfortable transportation across the stunning regions of Kashmir, Punjab, and Himachal Pradesh. Whether you're traveling for business, leisure, or seeking to explore the breathtaking landscapes, we are here to make your journey as smooth and hassle-free as possible.
+          Welcome to DK Tour & Travel Services, your trusted taxi service provider in North India! We specialize in offering safe, reliable, and comfortable transportation across the stunning regions of Kashmir, Punjab, and Himachal Pradesh. Whether you're traveling for business, leisure, or seeking to explore the breathtaking landscapes, we are here to make your journey as smooth and hassle-free as possible.
           </p>
           <ul className="feat mt-20  about-list">
             <li className="wow fadeInUp" data-wow-delay=".2s">
@@ -75,7 +75,7 @@ const Aboutus = () => {
 <li className="wow fadeInUp" data-wow-delay=".4s">
         <h6><span>4</span>
 Book Your Ride Today!</h6>
-<p>Ready to explore the natural wonders of North India? Book your taxi with Brothers taxi Services today and let us take care of your travel needs. Whether you're heading to the lush landscapes of Kashmir, the cultural heart of Punjab, or the scenic hill stations of Himachal Pradesh, we are here to ensure your journey is both enjoyable and stress-free.</p></li>
+<p>Ready to explore the natural wonders of North India? Book your taxi with DK Tour & Travel Services today and let us take care of your travel needs. Whether you're heading to the lush landscapes of Kashmir, the cultural heart of Punjab, or the scenic hill stations of Himachal Pradesh, we are here to ensure your journey is both enjoyable and stress-free.</p></li>
       </ul>
       </div>
       </div>

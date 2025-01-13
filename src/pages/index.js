@@ -54,10 +54,11 @@ const Homepage = () => {
 export const Head = () => {
   return (
     <>
-      <title>Home | Brothers Taxi Service, pathankot to himachal and kasmir Taxi.</title>
+      <title>Home | DK Tour & Travel Service, pathankot to himachal and kasmir Taxi.</title>
       <link rel="stylesheet" href="/css/arch-skin-dark.css" />
       <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Khand:wght@300;400;500;600;700&display=swap" />
       <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" />
+      <link rel="stylesheet" href="/css/customcss.css" />
     </>
   )
 }
