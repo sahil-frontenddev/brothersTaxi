@@ -31,7 +31,7 @@ collections:
     slug: "{{slug}}"
     fields:
       [{ label: "Vehicle Name", name: "name", widget: "string" },
-      { label: "Type", name: "type", widget: "string" },
+      { label: "Category", name: "category", widget: "select", options: ['SUV','SIDAN','PASSANGER'] },
       { label: "Image", name: "image", widget: "image" },
       { label: "Description", name: "description", widget: "markdown" }]
 

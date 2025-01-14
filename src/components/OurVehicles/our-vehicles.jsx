@@ -16,7 +16,7 @@ const OurVehicles = () => {
           <div className="col-lg-8 col-md-10">
             <div className="sec-head  text-center">
               <h2 className="wow fadeIn" data-wow-delay=".3s">
-                Projects
+                Our Vehicles
               </h2>
             </div>
           </div>
