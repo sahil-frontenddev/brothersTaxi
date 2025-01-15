@@ -74,13 +74,17 @@ export default  function WorksDark ({data}) {
                       <div className="cont">
                         <div>
                           <div className="info">
-                            <Link to="/blog/blog-dark" className="date">
+                            <Link to="javascript:void();" className="date">
+                            Publish Date &nbsp;&nbsp; - &nbsp;&nbsp;
                               <span>
-                                <i>{node.frontmatter.date.day}</i>
-                                {node.frontmatter.date.month}
+                                <i>{new Date(node.frontmatter.date).getDay()}</i>
+                                <span>/</span>
+                                {new Date(node.frontmatter.date).toLocaleString('default', { month: 'long' })}
+                                <span>/</span>
+                                <i>{new Date(node.frontmatter.date).getFullYear()}</i>
                               </span>
                             </Link>
-                            <span>/</span>
+                            
                             {/* {
                               blogItem.tags.map((tag, index) => (
                                 <Link key={index} to="/blog/blog-dark" className="tag">
@@ -95,7 +99,7 @@ export default  function WorksDark ({data}) {
                             </Link>
                           </h5>
                           <p className="mt-10">
-                          <div dangerouslySetInnerHTML={{ __html: node.html }}></div>
+                            {node.frontmatter.description + '...'}
                           </p>
                           <div className="btn-more mt-30">
                             <Link to={`/blog/${node.parent.name}`} className="simple-btn">
@@ -139,6 +143,7 @@ export const pageQuery = graphql`
         date
         title
         thumbnail
+        description
       }
       id
       html

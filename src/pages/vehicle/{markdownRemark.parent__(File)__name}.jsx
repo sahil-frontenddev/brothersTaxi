@@ -83,7 +83,6 @@ export const pageQuery = graphql`
   markdownRemark(id: {eq: $id}) {
     frontmatter {
       date
-      slug
       thumbnail
       title
     }
