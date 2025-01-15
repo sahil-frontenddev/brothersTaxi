@@ -52,7 +52,7 @@ export default  function WorksDark ({data}) {
       <NavbarArch navbarRef={navbarRef } />
       <WorksHeader sliderRef={fixedHeader} headerText={'Blogs'} />
       <div ref={MainContent} className="main-content">
-        <WorksStyle1 data={data} itsType={'vehicles'} />
+        <WorksStyle1 data={data} itsType={'vehicle'} />
         <FooterArch />
       </div>
     </Layout>

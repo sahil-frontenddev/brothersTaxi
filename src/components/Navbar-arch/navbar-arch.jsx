@@ -71,6 +71,14 @@ const NavbarArch = ({ navbarRef, theme}) => {
               </GatsbyLink>
             </li>
             <li className="nav-item">
+              <GatsbyLink
+                className="nav-link"
+                to={`/vehicle/`} 
+              >
+                Available Vehicles
+              </GatsbyLink>
+            </li>
+            <li className="nav-item">
               <Link
                 className="nav-link"
                 to="contact-arch"
