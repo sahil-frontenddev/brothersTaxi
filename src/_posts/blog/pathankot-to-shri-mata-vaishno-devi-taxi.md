@@ -8,11 +8,11 @@ description: If you are planning a spiritual journey from Pathankot to Shri Mata
 date: 2025-01-15T11:29:00.000Z
 thumbnail: /images/uploads/mata-vaishno-devi-mandir-1.jpg
 ---
-**Pathankot to Shri Mata Vaishno Devi: A Pilgrim’s Guide**
+## **Pathankot to Shri Mata Vaishno Devi: A Pilgrim’s Guide**
 
-If you are planning a spiritual journey from Pathankot to Shri Mata Vaishno Devi, DK Tour and Travel is here to make your pilgrimage seamless and memorable. Shri Mata Vaishno Devi, nestled in the Trikuta Mountains of Jammu and Kashmir, is one of India’s most revered Hindu shrines. Pilgrims from all corners of the country flock here to seek blessings from the Goddess.
+If you are planning a spiritual journey from Pathankot to Shri Mata Vaishno Devi, **DK Tour and Travel** is here to make your pilgrimage seamless and memorable. Shri Mata Vaishno Devi, nestled in the Trikuta Mountains of Jammu and Kashmir, is one of India’s most revered Hindu shrines. Pilgrims from all corners of the country flock here to seek blessings from the Goddess.
 
-### **Distance and Route Overview**
+## **Distance and Route Overview**
 
 The distance between Pathankot and Katra, the base town for the Vaishno Devi shrine, is approximately 110 kilometers. This journey takes about 3-4 hours by road, depending on traffic and weather conditions.
 
@@ -38,17 +38,25 @@ At DK Tour and Travel, we specialize in providing hassle-free travel experiences
 3. **Stay Hydrated:** Carry a water bottle and light snacks for the journey.
 4. **Use DK Tour and Travel’s Services:** Our team can assist with helicopter bookings, pony rides, or palanquin services for a stress-free pilgrimage.
 
+![mata vaishno](/images/uploads/mata-vaishno-devi2.jpg "mata vaishno")
+
 ### **Key Attractions Along the Way**
 
 * **Raghunath Temple (Jammu):** A renowned temple dedicated to Lord Rama.
 * **Jhajjar Kotli:** A picturesque picnic spot located en route to Katra.
 * **Ban Ganga:** The first major stop on the trek, offering serene views and historical significance.
 
+![bhairo mandir](/images/uploads/bhairon-mandir1.jpg "bhairo mandir")
+
 ### **Book Your Journey Today!**
 
-Embarking on a spiritual journey has never been easier. Let DK Tour and Travel take care of your travel needs, so you can focus on the divine experience. Contact us today to book your Pathankot to Shri Mata Vaishno Devi package.
+Embarking on a spiritual journey has never been easier. Let **DK Tour and Travel** take care of your travel needs, so you can focus on the divine experience. Contact us today to book your Pathankot to Shri Mata Vaishno Devi package.
 
-**Call Now:** +91-XXXXXXXXXX
-**Email Us:** [info@dktourandtravel.com](<>)
 
-Plan your pilgrimage with DK Tour and Travel and create memories to cherish for a lifetime!
+
+**Call Now:** +919797413613, +917837477127
+
+
+**Email Us:** [](<>)pathankotandhp.kashmirtaxi@gmail.com
+
+Plan your pilgrimage with **DK Tour and Travel** and create memories to cherish for a lifetime!
