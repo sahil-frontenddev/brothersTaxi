@@ -27,11 +27,11 @@ collections:
 
   - name: "vehicles"
     label: "Vehicles"
-    folder: "src/vehicles/vehicle"
+    folder: "src/_vehicles/vehicle"
     create: true
     slug: "{{slug}}"
     fields:
-      [{ label: "Vehicle Name", name: "name", widget: "string" },
+      [{ label: "Title", name: "title", widget: "string" },
       { label: "Category", name: "category", widget: "select", options: ['SUV','SIDAN','PASSANGER'] },
       { label: "Image", name: "image", widget: "image" },
       { label: "Description", name: "description", widget: "markdown" }]
