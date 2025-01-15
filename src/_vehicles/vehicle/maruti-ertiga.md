@@ -2,7 +2,8 @@
 title: Maruti Ertiga
 category: SUV
 image: /images/uploads/ertiga.jpg
-description: >-
+---
+
   ## **Book a Taxi Maruti Ertiga with DK Tour and Travel**
 
 
