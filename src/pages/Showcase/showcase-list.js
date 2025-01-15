@@ -3,6 +3,7 @@ import ShowcasesFullScreenCircleSlide from "components/Showcases-full-screen-cir
 // import La from "layouts/Dark";
 import Layout from "components/layout";
 import NavbarArch from "components/Navbar-arch/navbar-arch";
+import FooterArch from "components/Footer-arch/footer-arch";
 
 const ShowcaseList = () => {
   return (
@@ -10,6 +11,7 @@ const ShowcaseList = () => {
       {/* <NavbarFullMenu /> */}
       <NavbarArch />
       <ShowcasesFullScreenCircleSlide />
+      <FooterArch />
     </Layout>
   );
 };

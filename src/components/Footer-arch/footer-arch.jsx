@@ -45,18 +45,18 @@ const FooterArch = () => {
               <ul>
                 <li>
                   <div className="img">
-                    <img src="/img/blog/1.jpg" alt="" />
+                    <img src="img/portfolio/full/1.jpg" alt="" />
                   </div>
                   <div className="sm-post">
                     <p>
-                      Pathankot to Kashmir
+                      Pathankot to Katra
                     </p>
                     {/* <span className="date main-color">14 sep 2022</span> */}
                   </div>
                 </li>
                 <li>
                   <div className="img">
-                    <img src="/img/blog/2.jpg" alt="" />
+                    <img src="/img/portfolio/full/2.jpg" alt="" />
                   </div>
                   <div className="sm-post">
                     <p>

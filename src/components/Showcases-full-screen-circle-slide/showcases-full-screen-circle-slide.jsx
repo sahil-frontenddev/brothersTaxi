@@ -87,7 +87,7 @@ const ShowcasesFullScreenCircleSlide = () => {
                     <div className="caption ontop valign">
                       <div className="o-hidden">
                         <h1 data-swiper-parallax="-2000">
-                          <Link to={`/project-details2/project-details2-dark`}>
+                          <Link to={`${slide.url}`}>
                             <div className="stroke">{slide.title.first}</div>
                             <span>{slide.title.second}</span>
                           </Link>

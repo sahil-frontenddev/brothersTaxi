@@ -1,4 +1,4 @@
-.cont li {
-    display: flex;
-    gap: 4px;
+
+.works .lg-space > div {
+    min-height: 350px;
 }

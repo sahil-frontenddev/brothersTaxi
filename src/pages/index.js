@@ -34,7 +34,7 @@ const Homepage = () => {
       <NavbarArch navbarRef={navbarRef} />
       <Intro5 />
       <AboutUs />
-      <OurVehicles />
+      {/* <OurVehicles /> */}
       {/* <Services6 />
       
       <CaseStudy />

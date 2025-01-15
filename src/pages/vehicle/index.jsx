@@ -50,7 +50,7 @@ export default  function WorksDark ({data}) {
         </div>
       </div>
       <NavbarArch navbarRef={navbarRef } />
-      <WorksHeader sliderRef={fixedHeader} headerText={'Blogs'} />
+      <WorksHeader sliderRef={fixedHeader} headerText={'Our Vehicles'} />
       <div ref={MainContent} className="main-content">
         <WorksStyle1 data={data} itsType={'vehicle'} />
         <FooterArch />
@@ -76,12 +76,13 @@ export const pageQuery = graphql`
   allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/(_vehicles)/"}}) {
     nodes {
       frontmatter {
-        date
         title
-        thumbnail
+        image
+        category
+        description
       }
       id
-      html
+      
       parent {
         ... on File {
           name
