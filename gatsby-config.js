@@ -2,7 +2,8 @@ module.exports = {
   siteMetadata: {
     title: 'DK Tour & Travel service.',
     description: 'pathankot to Himachal and Kashmir Taxi Service.',
-    author: 'ThemesCamp'
+    author: 'Sahil Lalotra',
+    siteUrl: `https://www.dktourandtravel.in`,
   },
   plugins: [
     'gatsby-plugin-resolve-src',"gatsby-plugin-decap-cms",{
@@ -28,7 +29,8 @@ module.exports = {
       },
       __key: "vehicleList"
     },
-    'gatsby-transformer-remark'
+    'gatsby-transformer-remark',
+    `gatsby-plugin-sitemap`
   ],
   trailingSlash: "always"
 }
