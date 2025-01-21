@@ -61,9 +61,11 @@ console.log(data);
       </div>
       </div>
       <div className="row mb-40">
-        <div className="col-md-12">
-        <a className="whatsapp-link" href="https://wa.me/+919797413613">
+        <div className="col-md-12 flex-col-what">
                 <p>click here to message us on </p>
+                <div className="cont-info">
+
+        <a className="whatsapp-link" href="https://wa.me/+919797413613">
                 <svg fill="#25d366" height="60px" width="60px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 308 308">
 <g id="XMLID_468_">
 	<path id="XMLID_469_" d="M227.904,176.981c-0.6-0.288-23.054-11.345-27.044-12.781c-1.629-0.585-3.374-1.156-5.23-1.156
@@ -87,7 +89,7 @@ console.log(data);
 </svg>
                 </a>| 
                 <a className="whatsapp-link" href="https://wa.me/+917837477127">
-                <p>click here to message us on </p>
+               
                 <svg fill="#25d366" height="60px" width="60px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 308 308">
 <g id="XMLID_468_">
 	<path id="XMLID_469_" d="M227.904,176.981c-0.6-0.288-23.054-11.345-27.044-12.781c-1.629-0.585-3.374-1.156-5.23-1.156
@@ -110,6 +112,7 @@ console.log(data);
 </g>
 </svg>
                 </a>
+                </div>
         </div>
       </div>
       </section>
